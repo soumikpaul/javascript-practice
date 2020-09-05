@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" lang="en">
+    <title>JS Practice</title>
+</head>
+
+<body>
+    <h2>Form Validation</h2>
+    <form name='registration' onSubmit="return formValidation();">
+        <ul>
+            <li><label for="firstname">First Name:</label></li>
+            <input type="text" name="fname" >
+            <li><label for="firstname">Last Name:</label></li>
+            <input type="text" name="lname" >
+            <li><label for="empid">Emp Id:</label></li>
+            <input type="text" name="empid">
+            <li><label for="email">Email:</label></li>
+            <input type="text" name="email" size="50"  />
+            <li><label id="gender">Sex:</label></li>
+            <input type="radio" name="msex" value="Male" /><span>Male</span>
+            <input type="radio" name="fsex" value="Female" /><span>Female</span>
+            <li><label for="address">Address:</label></li>
+            <input type="text" name="fname" >
+            <input type="text" name="fname" >
+            <input type="text" name="fname" >
+            <li><label for="dob">DOB:</label></li>
+            <input type="text" name="dob" size="50" />
+            <input type="submit" value="Submit" onclick="validate()">
+    </form>
+</body>
+
+</html>

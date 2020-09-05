@@ -1,0 +1,124 @@
+.chart div {
+    font: 10px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+}
+
+.chart2 div {
+    font: 10px sans-serif;
+    background-color: green;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+}
+
+.chart4 div {
+    font: 10px sans-serif;
+    background-color: black;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+}
+
+.dashboard {
+    text-align: center;
+}
+
+button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    cursor: pointer;
+    width: 25%;
+    font-size: 20px;
+    margin-top: auto;
+    border-radius: 8px;
+    margin-left: 400px;
+
+}
+
+input {
+    margin-left: 300px;
+}
+
+body {
+    margin: 30px;
+}
+
+div {
+    margin: 20px;
+    margin-left: 0px;
+}
+
+p {
+    text-align: center;
+}
+
+.mytab {
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+}
+
+.hdrow {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+    color: darkblue;
+}
+
+span {
+    font-size: 20px;
+}
+
+/*$axis-color: #000 $bar-standard-color: #4682b4 $bar-selected-color: #17bf3c $tooltip-background-color: #b0c4de $tooltip-span-color: #d11515 $font: 'Lobster'
+*/
+.bar {
+    fill: steelblue;
+    color: blue;
+}
+
+.bar:hover {
+    fill: green
+}
+
+.axis {
+    font-family: $font font-size: 12px
+}
+
+.axis path,
+.axis line {
+    fill: none shape-rendering: crispEdges stroke: $axis-color
+}
+
+.x.axis path {
+    display: 1px solid;
+}
+
+.y.axis text {
+    fill: $axis-color;
+}
+
+.tooltip {
+    background: red; 
+    border: 0; 
+    border-radius: 8px; 
+    font-family: $font; 
+    font-size: 12px;
+    font-weight: bold; 
+    height: 20px; 
+    padding: 2px; 
+    pointer-events: none; 
+    position: absolute; 
+    text-align: center; 
+    width: 120px;
+
+}
